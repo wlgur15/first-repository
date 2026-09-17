@@ -23,7 +23,7 @@ def partition(a, pivot, high):
     return j
 
 
-a = [54,88,77,26,93,17,49,10,17,77,11,31,22,44,17,20]
+a = [54,88,78,26,94,17,49,16,13,73,11,31,22,44,17,23]
 print('Original list:\t', a)  
 qsort(a, 0, len(a)-1)
 print('Sorted list:\t', a)
